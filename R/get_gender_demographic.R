@@ -39,7 +39,7 @@ get_gender_demographic <- function(api_key = similarweb_api_key, site, start, en
     json <- jsonlite::fromJSON(text)
     male <- dplyr::as_tibble(json$male) %>% dplyr::mutate(gender = "Male")
     female <- dplyr::as_tibble(json$female) %>% dplyr::mutate(gender = "Female")
-    results <- rbind(male,female)
+    results <- rbind(male,female) %>% dplyr::select(gender, value)
   }
   results
 }
