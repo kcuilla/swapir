@@ -95,7 +95,7 @@ get_gender_demographic(site = "bbc.com", start = "2020-10", end = "2020-12")
 ```
 
 ```{r}
-  gender          bounce_rate
+  gender        bounce_rate
   <chr>         <dbl>
 1 Male	        0.6084058			
 2 Female        0.3915942				
