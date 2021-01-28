@@ -43,7 +43,7 @@ get_age_demographic <- function(api_key = similarweb_api_key, site, start, end, 
     age_45_to_54 <- dplyr::as_tibble(json$age_45_to_54) %>% dplyr::mutate(age = "45 to 54")
     age_55_to_64 <- dplyr::as_tibble(json$age_55_to_64) %>% dplyr::mutate(age = "55 to 64")
     age_65_plus <- dplyr::as_tibble(json$age_65_plus) %>% dplyr::mutate(age = "65+")
-    results <- rbind(age_18_to_24,age_25_to_34,age_35_to_44,age_45_to_54,age_55_to_64,age_65_plus)
+    results <- rbind(age_18_to_24,age_25_to_34,age_35_to_44,age_45_to_54,age_55_to_64,age_65_plus) %>% dplyr::select(age, value)
   }
   results
 }
