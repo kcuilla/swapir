@@ -4,7 +4,8 @@ Title: Retrieves web analytics data from SimilarWeb's API
 Version: 0.1.0
 Author: Kyle Cuilla
 Maintainer: Kyle Cuilla <kyle.cuilla@gmail.com>
-Description: An interface for retrieving web analytics data such as number of visits, demographics, and engagement metrics from SimilarWeb's API 
+Description: An interface for retrieving web analytics data from SimilarWeb's API such as number of visits, demographics, and engagement metrics.
+    Subscription and API key required from https://www.similarweb.com/
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
