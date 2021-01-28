@@ -134,7 +134,7 @@ get_similar_sites(site = "bbc.com")
 1 abcnews.go.com    0.7802319			
 2 time.com	    0.7640233	
 3 express.co.uk	    0.7477546		
-4 latimes.com	     0.7475793	
+4 latimes.com	    0.7475793	
 5 mirror.co.uk	    0.7444694			
 6 msn.com     	    0.7326087	
 7 theverge.com	    0.7308741			
