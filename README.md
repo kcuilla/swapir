@@ -31,7 +31,7 @@ get_visits(site = "bbc.com", start = "2020-10", end = "2020-12")
 ```
 
 ```{r}
-  date          average_visit_duration
+  date          visits
   <chr>         <dbl>
 1 2020-10-01	171.3330			
 2 2020-11-01	175.0670			
