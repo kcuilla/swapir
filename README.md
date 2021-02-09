@@ -3,7 +3,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-This package is a tidy API wrapper for the SimilarWeb API. With this package, you can retrieve web analytics metrics from a given site such as number of visits, visit duration, visitor demographic info, and more. 
+The {swapir} package is a tidy API wrapper for the SimilarWeb API. With {swapir}, you can retrieve web analytics metrics from a given site such as number of visits, visit duration, visitor demographic info, and more. 
 
 ## Installation
 
